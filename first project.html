@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+
+           <!--challenge 11-->
+
+    <div id="container">
+     
+    
+    <h1 class="text">Challenge 1</h1>
+    <h3 class="text1">Your Age in days</h3>
+    
+    <div class="box2">
+        <button class="but" onclick="ageInDays()">Click me</button>
+        <button class="but1" onclick="reseet()">Reset</button>
+    </div>
+    <div  id="box-result">
+        <div id="result"></div>
+    </div>
+</div>
+
+
+
+           <!--challenge 2-->
+
+    <div id="container-2">
+             <h1>Challenge 2</h1>
+             <strong class="font-1">!After generating emoji take cursor to image</strong>
+             <button class="but2" onclick="remove()">decrement</button>
+             <button class="but3" onclick="catGenerator()">Generate Emoji</button>
+        <div id="flex-img">
+        
+        </div>
+    </div>
+
+
+
+    
+           <!--challenge 3-->
+
+
+           <div id="container-3">
+               <h1>Challenge 3</h1>
+               <h2>Rock Paper Scissor</h2>
+
+               <div id="flex-box-rps">
+                   <img id="rock"    src="stone.png"   alt="" height="150px" width="150px" onclick="rpsGame(this)">
+                   <img id="paper"   src="paper.png"   alt="" height="150px" width="150px" onclick="rpsGame(this)">
+                   <img id="scissor" src="scissor.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+               </div>
+           </div>
+
+
+
+           <!--challenge 4 change button color-->
+
+
+        <div id="container-4">
+               <h1>Challenge 4</h1>
+               <h2>Change Buttons Color by selecting from selector</h2>
+               <h3>But in case of <strong style="font-size: larger;">random</strong>  computer choose color for each button randomly</h3>
+
+            <div id="flex-box-btn-color">
+                <form action="">
+                    <select name="backdrop" id="background" onchange="buttonchang(this)">
+                        
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                       <option value="green">Green</option>
+                       <option value="reset">Reset</option>
+                    
+                    </select>
+                </form>
+                
+                <button class="yellow">yahoo</button>
+                <button class="green">google</button>
+                <button class="blue">facebook</button>
+                <button class="reds">youtube</button>
+            </div> 
+        </div>
+
+
+
+<script src="first.js"></script>
+
+</body>
+</html>

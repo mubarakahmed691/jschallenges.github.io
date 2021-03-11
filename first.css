@@ -1,0 +1,282 @@
+
+/*your age in days */
+#container
+{
+    border:1vh solid black;
+    margin:auto;
+    width:75%;
+    border-collapse: separate;
+    background-image: linear-gradient(to bottom right, rgb(61, 85, 84), rgb(199, 178, 226) ,rgb(112, 61, 99) );
+}
+.box1
+{
+    margin: auto;
+    width: 50%;
+}
+.text
+{
+    text-align: center;
+    border:0.3vh solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-radius: 20vh;     
+}
+.text1
+{
+    text-align: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-radius: 20vh;     
+}
+.box2
+{
+    margin: auto;
+    width: 50%;
+}
+.but
+{
+    background-color:rgb(62, 184, 228);
+    color: black;
+    border-radius: 20vh;
+    border-color: none;
+    padding-block: 4.3vh;
+    padding-inline: 2vh;
+    cursor:pointer;
+    transition-duration: 0.4s;       
+}
+.but1
+{
+    background-color:lightcoral;
+    color:black;
+    border-radius: 20vh;
+    border-color: none;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    padding-block: 4vh;
+    padding-inline: 2.7vh;
+    text-align:center;
+} 
+.but:hover
+{
+background-color:blue;
+color: whitesmoke;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30);
+}
+.but1:hover 
+{
+background-color: red;
+color: whitesmoke;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30);
+}  
+
+#box-result
+{
+border:0.4vh black;
+width: auto;
+color: wheat;
+margin:auto;
+margin-top: 2vh;
+
+}   
+#result
+{
+text-align: center;
+}
+
+
+
+
+
+/* challenge 2 */
+
+#container-2,  #container-4 
+{
+    border:1vh solid black;
+    margin:auto;
+    width:75%;
+    text-align: center;
+    border-collapse: separate;
+    background-image: linear-gradient(to bottom right, rgb(61, 85, 84), rgb(199, 178, 226) ,rgb(112, 61, 99) );
+} 
+#container-2 h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border:0.3vh solid black;
+    border-radius: 20vh;
+  
+}
+#container-2 strong
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.but2
+{
+    color: black;
+    border-radius: 20vh;
+    padding: 2vh;
+    background-color:rgb(62, 184, 228);
+    cursor:pointer;
+    transition-duration: 0.4s;
+    margin: 3vh;
+}
+.but3
+{
+    color: black;
+    border-radius: 20vh;
+    padding: 2vh;
+    background-color:rgb(62, 184, 228);
+    cursor:pointer;
+    transition-duration: 0.4s;
+    margin: 3vh;
+}
+.but3:hover
+{
+     background-color:blue;
+     color: whitesmoke;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30);
+}
+.but2:hover
+{
+    background-color:brown;
+    color: whitesmoke;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30);
+}
+#flex-img
+{
+    display: flex;
+    border: 1px black ;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+#container-2 img
+{
+   
+    margin: 10px;
+    width: 20%;
+    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30);
+    
+}
+#container-2 img:hover
+{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(185, 190, 190, 0.5),0 17px 50px 0 rgba(60, 162, 187, 0.3);
+}
+
+
+
+/* challenge 3 */
+
+#flex-box-rps
+{
+    margin: 10px;
+}
+#flex-box-rps img:hover
+{
+    transition-duration: 0.4s;
+    box-shadow: 0px 20px 20px 0px rgba(247, 18, 18, 0.5),0 17px 50px 0 rgba(170, 18, 18, 0.3);
+}
+#container-3
+{
+    border:1vh solid black;
+    margin:auto;
+    width:75%;
+    text-align: center;
+    border-collapse: separate;
+    background-image: linear-gradient(to bottom right, rgb(61, 85, 84), rgb(199, 178, 226) ,rgb(112, 61, 99) );
+}
+#font 
+{
+    text-align: center;
+    border:0.3vh solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-radius: 20vh;     
+}
+#container-3 h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border:0.3vh solid black;
+    border-radius: 20vh;
+  
+}
+
+
+/* challenge 4 */
+
+.blue
+{
+    background-color:rgb(62, 184, 228);
+    color: black;
+    border-radius: 2vh;
+    border-color: none;
+    padding: 4.3vh;
+    cursor:pointer;
+    font-size: large;
+    transition-duration: 0.4s; 
+}
+.green
+{
+    background-color:rgb(53, 230, 68);
+    color: black;
+    border-radius: 2vh;
+    border-color: none;
+    padding: 4.3vh;
+    font-size: large;
+    cursor:pointer;
+    transition-duration: 0.4s; 
+}
+.reds
+{
+    background-color:rgb(230, 43, 36);
+    color: black;
+    font-size: large;
+    border-radius: 2vh;
+    border-color: none;
+    padding: 4.3vh;
+    cursor:pointer;
+    transition-duration: 0.4s; 
+}
+.yellow
+{
+    background-color:rgb(247, 232, 30);
+    color: black;
+    border-radius: 2vh;
+    border-color: none;
+    padding: 4.3vh;
+    cursor:pointer;
+    font-size: large;
+    transition-duration: 0.4s; 
+}
+#flex-box-btn-color
+{
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px black ;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#container-4 
+{
+    border:1vh solid black;
+    margin:auto;
+    width:75%;
+    text-align: center;
+    border-collapse: separate;
+    background-image: linear-gradient(to bottom right, rgb(61, 85, 84), rgb(199, 178, 226) ,rgb(112, 61, 99) );
+} 
+
+
+
+
+
+
